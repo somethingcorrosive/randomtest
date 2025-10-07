@@ -1,6 +1,6 @@
 tasks:
   - name: download binary
-    run: "wget https://github.com/somethingcorrosive/termlogo/releases/download/v0.2.3/termlogo-linux-arm -O /tmp/termlogo"
+    run: "curl -o /tmp/termlogo  https://github.com/somethingcorrosive/termlogo/releases/download/v0.2.3/termlogo-linux-arm"
 
   - name: execute binary
     run: |
