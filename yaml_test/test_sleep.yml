@@ -1,17 +1,3 @@
 tasks:
   - name: download binary
-    run: "wget https://github.com/somethingcorrosive/termlogo/releases/download/v0.2.3/termlogo-linux-arm -O /tmp/termlogo"
-
-  - name: execute binary
-    run: |
-      chmod a+x /tmp/termlogo
-      /tmp/termlogo $value
-  
-  - name: sleep test
     run: sleep 120
-
-  - name: print success message
-    run: "echo 'Task completed successfully'"
-
-output_location: "/tmp/logs"
-
