@@ -5,8 +5,5 @@ tasks:
   - name: source and test
     run: ". /root/.cargo/env && rustc --version"
 
-  - name: print success message
-    run: "echo 'Task completed successfully'"
-
 output_location: "/tmp/logs"
 
