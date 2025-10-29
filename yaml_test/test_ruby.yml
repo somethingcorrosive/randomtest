@@ -1,6 +1,6 @@
 tasks:
   - name: install ruby
-    run: "sudo apt install -y ruby-full"
+    run: "apt install -y ruby-full"
 
   - name: version test
     run: "ruby --version"
