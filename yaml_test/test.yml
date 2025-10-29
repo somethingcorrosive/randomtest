@@ -8,8 +8,5 @@ tasks:
   - name: clone the termlogo
     run: "git clone https://github.com/somethingcorrosive/termlogo.git"
 
-  - name: build the termlogo
-    run: "cd termlogo && cargo run -- hello"
-
 output_location: "/tmp/logs"
 
