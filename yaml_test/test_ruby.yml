@@ -1,8 +1,8 @@
 tasks:
   - name: install ruby
-    run: "sudo apt install ruby-full"
+    run: "sudo apt install -y ruby-full"
 
-  - name: source and test
+  - name: version test
     run: "ruby --version"
 
 output_location: "/tmp/logs"
