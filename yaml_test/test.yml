@@ -6,10 +6,10 @@ tasks:
     run: ". /root/.cargo/env && rustc --version"
 
   - name: clone the termlogo
-    run: git clone https://github.com/somethingcorrosive/termlogo.git
+    run: "git clone https://github.com/somethingcorrosive/termlogo.git"
 
   - name: build the termlogo
-    run: cd termlogo && cargo run -- hello, from the inside 2.0 
+    run: "cd termlogo && cargo run -- hello"
 
 output_location: "/tmp/logs"
 
