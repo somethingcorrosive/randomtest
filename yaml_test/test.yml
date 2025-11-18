@@ -6,7 +6,7 @@ tasks:
     run: ". /root/.cargo/env && rustc --version"
 
   - name: clone the termlogo
-    run: "cd termlogo && . /root/.cargo/env && cargo run -- Henlo from dSaaS"
+    run: "cd termlogo && . /root/.cargo/env && cargo run --   dSaaS"
 
 output_location: "/tmp/logs"
 
